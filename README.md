@@ -1,5 +1,5 @@
 # azure-resume
-Azure Static Resume, following ACG Project video.
+Azure Static Resume, following ACG Project video. Website: [Stephen's Resume ](https://www.stephenpham.me/)
 ##  Overview 
 The goal is to build a static resume integrated into GitHub and hosted on Microsoft Azure with Blob Storage, Azure Functions and CosmosDB.
 
