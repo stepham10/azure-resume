@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    "net7.0": {
+    "net6.0": {
       "coverlet.collector/3.2.0": {
         "type": "package",
         "build": {
@@ -10905,7 +10905,7 @@
     }
   },
   "projectFileDependencyGroups": {
-    "net7.0": [
+    "net6.0": [
       "Microsoft.AspNetCore.Mvc >= 2.2.0",
       "Microsoft.NET.Test.Sdk >= 17.5.0",
       "api >= 1.0.0",
@@ -10930,14 +10930,14 @@
         "/Users/stepham10/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
-        "net7.0"
+        "net6.0"
       ],
       "sources": {
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "projectReferences": {
             "/Users/stepham10/Desktop/azure-resume/backend/api/api.csproj": {
               "projectPath": "/Users/stepham10/Desktop/azure-resume/backend/api/api.csproj"
@@ -10952,8 +10952,8 @@
       }
     },
     "frameworks": {
-      "net7.0": {
-        "targetAlias": "net7.0",
+      "net6.0": {
+        "targetAlias": "net6.0",
         "dependencies": {
           "Microsoft.AspNetCore.Mvc": {
             "target": "Package",
