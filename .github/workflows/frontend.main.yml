@@ -19,11 +19,13 @@ jobs:
     - name: Upload to blob storage
       uses: azure/CLI@v1
       with:
+        azcliversion: 2.0.72
         inlineScript: |
             az storage blob upload-batch --account-name sphamazureresumeacg --auth-mode key -d '$web' -s frontend/ --overwrite
     - name: Purge CDN endpoint
       uses: azure/CLI@v1
       with:
+        azcliversion: 2.0.72
         inlineScript: |
            az cdn endpoint purge --content-paths  "/" --profile-name "sphamazureresume" --name "sphamazureresume" --resource-group "azureresume-rg"
   # Azure logout
